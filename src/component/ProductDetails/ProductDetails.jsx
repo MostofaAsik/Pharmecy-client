@@ -38,9 +38,9 @@ const ProductDetails = () => {
                     <div className=' overflow-hidden'>
                         <img src={product} className='transition hover:scale-110 duration-500 overflow-hidden' alt="Product image" />
                     </div>
-                    <div className='mt-10'>
+                    <div className='mt-10 px-6'>
                         <h2 className='text-4xl font-bold'>Blue Shampoo – Peppermint Rosemary Hair Shampoo</h2>
-                        <p className='mt-4 flex items-center gap-2 text-2xl'>
+                        <p className='mt-4 flex flex-col md:flex-row md:items-center gap-2 text-2xl'>
                             Customer Review
                             <Rating
                                 style={{ maxWidth: 180 }}
